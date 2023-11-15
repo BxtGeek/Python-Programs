@@ -1,2 +1,2 @@
-##write a program to print hello world
+#write a program to print hello world
 print ("Hello World!")
