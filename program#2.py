@@ -29,6 +29,10 @@ print(f"Hello,{name}")
 # because in this case it is not considiring as a special string 
 print("Hello,{name}")
 
+# we can also add the multiple funtion in a same argument.
+print("print name#1")
+name1 = name.strip().title()
+print(f"Hello,{name1}")
 # we can use a string function name strip to remove all the extra space in the string 
 # let suppose we input the user name and we added lots of space so it will automatically remove that
 # First let format the string, it remove the whitespace 
@@ -36,3 +40,14 @@ name = name.strip()
 
 #now let print this 
 print(f"Hello,{name}")
+
+# we can also captilize the string using the below function
+name = name.capitalize()
+print(f"Hello,{name}")
+
+# captilize will not work if we have multiple argument in the input statement 
+# for that we can use a funcation name title 
+
+name = name.title()
+print(f"Hello,{name}")
+
