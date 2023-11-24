@@ -2,7 +2,7 @@
 x x x x x 
 x x x x 
 x x x 
-x x 
+x x  
 x 
 """
 num = 5
