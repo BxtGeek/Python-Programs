@@ -8,4 +8,7 @@ if __name__ == "__main__":
         name = input("Enter student's name: ")
         score = float(input("Enter student's score: "))
         students.append([name, score])
-    print(students)
+    students.sort(key=lambda x: (x[1], x[0]))
+    second_lowest_grade = sorted(set(score for name,score in students))[1]
+    students_with_second_lowest = [name for name, score in students if score == second_lowest_grade]
+    students_with_second_lowest.sort()
